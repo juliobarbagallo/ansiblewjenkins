@@ -1,0 +1,4 @@
+- name: Create file
+  command: touch /tmp/file
+  args:
+    creates: /tmp/file
