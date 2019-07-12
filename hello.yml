@@ -2,5 +2,5 @@
 - hosts: m1
   tasks:
     - name: run echo command
-      command: /bin/echo hello juliobar
+      command: /bin/echo hello "jon Test"
 
