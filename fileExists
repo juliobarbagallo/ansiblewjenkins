@@ -1,8 +1,0 @@
-- name: ensure file exists
-  copy:
-    content: ""
-    dest: /tmp/myFile
-    force: no
-    group: sys
-    owner: jbarbaga
-    mode: 0555
